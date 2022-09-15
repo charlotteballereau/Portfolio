@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<style type="text/css">
+			@import url(test.css);
+		</style>
+    <head>
+        
+        <title>Ballereau Charlotte - Portfolio</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body class="container-fluid" data-spy="scroll" data-target="#main-navbar">
+        <header>
+            <nav id="main-navbar" class="row navbar fixed-top navbar-expand-lg navbar-expand-md">
+                <div class="navbar-brand">
+                    <a id="navbar-logo" href="#top">
+                        <span class="logo"><img id="logo-img" src="./Images/logo.png" alt="Logo du site.fr"></span>
+                        <span class="text d-none">Ballereau Charlotte</span>
+                    </a>
+                </div>
+                <button id="navbar_toggler" type="button" aria-controls="navbar_container" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="text-right" id="navbar_container">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link red-link" href="#about" data-target="about">À Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link red-link" href="#skills" data-target="skills">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link red-link" href="#experiences" data-target="experiences">Formations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link red-link" href="#portfolio" data-target="portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link red-link" href="#contact" data-target="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="introduction" class="row">
+            <div class="col-md-12 text-center">
+                <div id="light-background">
+                    <h1 id="name-title">Ballereau Charlotte</h1>
+                    <hr class="separator red-separator">
+                    <p id="post-title">Développeur Web Junior</p>
+                </div>
+            </div>
+        </section>
+        <div id="about" class="scroll-adjust"></div>
+        <section id="about-section" class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-title">Présentation</h2>
+            </div>
+            <div id="about-image-div" class="col-md-3 d-flex align-items-center justify-content-center">
+                <img id="about-image" class="img-frame" src="./Images/photo.jpg" alt="Photo">
+            </div>
+            <div id="about-text" class="col-md-9 text-center">
+                <p>Inpulit praecipitem fides praecipitem ulla quae Aginatium nec quae iam praecipitem maioribus ad inpulit documentorum inde a arbitror hoc maioribus ut nunc 
+				locuta ut rata explanare explanare Aginatium pertinacior exitium super iam pertinacior maioribus pertinacior nec exitium hoc fides nobilem pertinacior praecipitem 
+				exitium praecipitem nobilem ulla est documentorum Aginatium rata.
+				
+				<a class="link dark-link fa-space-left" id="portfolio-link" href="#portfolio" data-target="portfolio">Consulter mes réalisations<span class="fas fa-long-arrow-alt-right fa-space-left"></span></a></p>
+            </div>
+        </section>
+        <div id="skills" class="scroll-adjust"></div>
+        <section id="skills-section" class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-title">Mes Compétences</h2>
+            </div>
+            <div class="col-md-5">
+                <div id="skills-list">
+                    <h2 class="skills-list-title text-center">Outils et OS</h2>
+                    <ul class="rounded-list">
+                        <li>Maitrise des environnements <strong>Windows</strong> et <strong>Linux</strong></li>
+                        <li>Versionning et partage de projet avec <strong>Git</strong> et <strong>GitHub</strong></li>
+                        <li>Création de <strong>Media Queries</strong> afin de gérer la responsivité des sites Web</li>
+                        <li>Utilisation de <strong>Photoshop</strong> afin d'intégrer des maquettes</li>
+                    </ul>
+                    <h2 class="skills-list-title text-center">Autres compétences</h2>
+                    <ul class="rounded-list">
+                        <li>Mise en ligne et création des environnements en utilisant les protocoles <strong>FTP</strong> et <strong>SSH</strong></li>
+                        <li>Présentation orale et démonstration de projets terminés devant un responsable/chef d'équipe</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="skills-charts" class="col-md-7">
+                <div class="skills-chart">
+                    <h2 class="skills-list-title text-center">Langages Web et CMS</h2>
+                    <p class="font-weight-bold">HTML/CSS</p>
+                    <div class="bar">
+                        <div class="bar-inner bar-75" data-percent="75%"></div>
+                    </div>
+                    <p class="font-weight-bold">Javascript</p>
+                    <div class="bar">
+                        <div class="bar-inner bar-60" data-percent="60%"></div>
+                    </div>
+                    <p class="font-weight-bold">PHP</p>
+                    <div class="bar">
+                        <div class="bar-inner bar-50" data-percent="50%"></div>
+                    </div>
+                    <p class="font-weight-bold">Wordpress</p>
+                    <div class="bar">
+                        <div class="bar-inner bar-30" data-percent="30%"></div>
+                    </div>
+                    <p class="font-weight-bold">Shopify</p>
+                    <div class="bar">
+                        <div class="bar-inner bar-20" data-percent="20%"></div>
+                    </div>
+                </div>
+                <div class="skills-chart">
+                    <h2 class="skills-list-title text-center">Frameworks et Librairies</h2>
+                    <p class="font-weight-bold">Symfony</p>
+                    <div class="bar">
+                        <div class="bar-inner bar-65" data-percent="65%"></div>
+                    </div>
+                    <p class="font-weight-bold">jQuery</p>
+                    <div class="bar">
+                        <div class="bar-inner bar-55" data-percent="55%"></div>
+                    </div>
+                    <p class="font-weight-bold">Bootstrap</p>
+                    <div class="bar">
+                        <div class="bar-inner bar-50" data-percent="50%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="experiences" class="scroll-adjust"></div>
+        <section id="experiences-section" class="row">
+            <div class="col-md-12 text-center">
+                <div class="dark-ribbon ribbon-left"></div><h2 class="section-title">Mes Formations</h2><div class="dark-ribbon ribbon-right"></div>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="tl-circ tl-circ-current"></div>
+                    <div class="timeline-panel">
+                        <p class="font-weight-bold"><span class="fas fa-user-graduate fa-space-right"></span>Formation Développeur Web Junior - OpenClassrooms</p>
+                        <p><span class="fas fa-map-marker-alt fa-space-right"></span>Formation par Internet</p>
+                        <p><span class="far fa-calendar-alt fa-space-right"></span>2017-2018</p>
+                        <p>Apprentissage à travers cinq projets pratiques et grâce et des cours mis à disposition des principaux langages du Web (HTML, CSS, Javascript et PHP).</p>
+                    </div>
+                </li>
+                <li id="moving-timeline" class="timeline-inverted">
+                    <div class="tl-circ"></div>
+                    <div class="timeline-panel">
+                        <p class="font-weight-bold"><span class="fas fa-user-graduate fa-space-right"></span>Licence MéRIT - IUT de Roanne</p>
+                        <p><span class="fas fa-map-marker-alt fa-space-right"></span>Roanne, France</p>
+                        <p><span class="far fa-calendar-alt fa-space-right"></span>2016-2017</p>
+                        <p>Approfondissement des compétences en réseaux informatiques et découverte des réseaux mobiles et opérateurs.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="tl-circ"></div>
+                    <div class="timeline-panel">
+                        <p class="font-weight-bold"><span class="fas fa-user-graduate fa-space-right"></span>BTS SIO SLAM - Lycée Gustave Eiffel</p>
+                        <p><span class="fas fa-map-marker-alt fa-space-right"></span>Bordeaux, France</p>
+                        <p><span class="far fa-calendar-alt fa-space-right"></span>2021-2023</p>
+                        <p>Découverte de l'algorithmique et pratique des langages de programmations C# et Python. Spécialité conception et développement d'applications.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div id="portfolio" class="scroll-adjust"></div>
+        <section id="portfolio-section" class="row">
+            <div class="col-md-12 text-center">
+                
+        </section>
+        <div id="contact" class="scroll-adjust"></div>
+        <footer id="contact-section" class="row">
+            <div id="contact-title" class="col-md-12 text-center">
+               <h2 class="section-title">Me Contacter</h2>
+            </div>
+            <div id="contact-form" class="col-md-6 text-center">
+                <p>Vous souhaitez me contacter ? Dans ce cas vous pouvez m'envoyer un mail à l'adresse <u>erzascarlet.ballereau@gmail.com</u> et je veillerai à vous répondre dans les plus brefs délais.</p>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <p class="text-center">Vous pouvez également me retrouver sur les sites suivants !</p>
+                    <p class="text-center">
+                        <a class="footer-icon" href="https://www.linkedin.com/in/lo%C3%AFs-cuby-147536164/" target="_blank" rel="noopener"><span class="fab fa-linkedin"></span></a>
+                        <a class="footer-icon" href="https://github.com/lcuby" target="_blank" rel="noopener"><span class="fab fa-github"></span></a>
+                        <a class="footer-icon" href="https://codepen.io/lcuby/" target="_blank" rel="noopener"><span class="fab fa-codepen"></span></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+     
+       
+    </body>
+</html>
