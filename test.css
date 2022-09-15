@@ -273,6 +273,12 @@ body {
 .bar-20 {
     width: 20%;
 }
+.bar-100 {
+    width:100%;
+}
+.bar-40 {
+    width: 40%;
+}
 
 /* Experiences section styles */
 #experiences-section {
